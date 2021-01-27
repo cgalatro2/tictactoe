@@ -1,7 +1,9 @@
 import React from 'react';
 
-const Board = () => {
-  return <button type="button">1</button>;
-};
+const Square = ({ value }) => (
+  <button type="button" className="square">
+    {value}
+  </button>
+);
 
-export default Board;
+export default Square;
